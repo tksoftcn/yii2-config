@@ -1,0 +1,32 @@
+{
+    "name": "tksoft/yii2-config",
+    "description": "Yii2 manage configuration from database",
+    "keywords": ["yii2", "yii2-config", "manage configuration", "tksoft"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/dektrium/yii2-user/issues?state=open",
+        "forum": "https://gitter.im/dektrium/yii2-user",
+        "source": "https://github.com/dektrium/yii2-user"
+    },
+    "authors": [
+        {
+            "name": "Tongke Chen",
+            "email": "chentongke@tksoft.cn",
+            "homepage": "http://www.tksoft.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "^2.0.0",
+        "yiisoft/yii2-bootstrap": "^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tksoft\\config\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "tksoft\\config\\Bootstrap",
+    }
+}
